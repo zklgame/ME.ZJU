@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="LibraryDetailAppointmentCell" rowHeight="267" id="KGk-i7-Jjw" customClass="LibraryDetailAppointmentCell" customModule="ME_ZJU" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="354" height="267"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="354" height="266.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="书名" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q6W-Vl-Nyo">
+                        <rect key="frame" x="8" y="8" width="338" height="27"/>
+                        <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="24"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="作者" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="X02-YP-Lxk">
+                        <rect key="frame" x="8" y="43" width="36" height="20"/>
+                        <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="18"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="请求开始日期：" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="4sE-OY-DKJ">
+                        <rect key="frame" x="8" y="127" width="126" height="20"/>
+                        <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="18"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="开始日期" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="WOi-c3-hSt">
+                        <rect key="frame" x="142" y="127" width="72" height="20"/>
+                        <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="18"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="请求结束日期：" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="U04-RF-Typ">
+                        <rect key="frame" x="8" y="155" width="126" height="20"/>
+                        <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="18"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="结束日期" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="qWf-uW-wjc">
+                        <rect key="frame" x="142" y="155" width="72" height="20"/>
+                        <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="18"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="请求状态：" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="Gr7-f4-ohw">
+                        <rect key="frame" x="8" y="183" width="90" height="20"/>
+                        <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="18"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="请求状态" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="bzK-Fw-bGI">
+                        <rect key="frame" x="106" y="183" width="72" height="20"/>
+                        <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="18"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="单册状态：" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="Lsh-zf-gGf">
+                        <rect key="frame" x="8" y="211" width="90" height="20"/>
+                        <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="18"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="单册状态" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="A9E-XX-F5l">
+                        <rect key="frame" x="106" y="211" width="72" height="20"/>
+                        <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="18"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="取书地点：" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="kkJ-dG-or8">
+                        <rect key="frame" x="8" y="239" width="90" height="20"/>
+                        <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="18"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="索书号" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="U5h-MX-7D4">
+                        <rect key="frame" x="8" y="71" width="54" height="20"/>
+                        <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="18"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="分馆" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="lZE-yv-ntJ">
+                        <rect key="frame" x="8" y="99" width="36" height="20"/>
+                        <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="18"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="取书地点" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="DiH-dH-XZI">
+                        <rect key="frame" x="106" y="239" width="72" height="20"/>
+                        <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="18"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="4sE-OY-DKJ" firstAttribute="leading" secondItem="lZE-yv-ntJ" secondAttribute="leading" id="07y-oa-4xi"/>
+                    <constraint firstItem="WOi-c3-hSt" firstAttribute="leading" secondItem="4sE-OY-DKJ" secondAttribute="trailing" constant="8" symbolic="YES" id="0g4-Hi-XFp"/>
+                    <constraint firstItem="Lsh-zf-gGf" firstAttribute="top" secondItem="Gr7-f4-ohw" secondAttribute="bottom" constant="8" symbolic="YES" id="1NX-Ik-YPm"/>
+                    <constraint firstItem="U04-RF-Typ" firstAttribute="top" secondItem="4sE-OY-DKJ" secondAttribute="bottom" constant="8" symbolic="YES" id="47m-bX-cou"/>
+                    <constraint firstItem="kkJ-dG-or8" firstAttribute="leading" secondItem="Lsh-zf-gGf" secondAttribute="leading" id="4pl-jl-jhy"/>
+                    <constraint firstItem="DiH-dH-XZI" firstAttribute="bottom" secondItem="kkJ-dG-or8" secondAttribute="bottom" id="858-5V-JjR"/>
+                    <constraint firstItem="A9E-XX-F5l" firstAttribute="leading" secondItem="Lsh-zf-gGf" secondAttribute="trailing" constant="8" symbolic="YES" id="Cgd-9H-T87"/>
+                    <constraint firstItem="WOi-c3-hSt" firstAttribute="top" secondItem="4sE-OY-DKJ" secondAttribute="top" id="FGa-6s-fns"/>
+                    <constraint firstItem="U5h-MX-7D4" firstAttribute="top" secondItem="X02-YP-Lxk" secondAttribute="bottom" constant="8" symbolic="YES" id="Iz6-bf-Fx6"/>
+                    <constraint firstItem="A9E-XX-F5l" firstAttribute="top" secondItem="Lsh-zf-gGf" secondAttribute="top" id="Jbv-0Q-qBi"/>
+                    <constraint firstItem="qWf-uW-wjc" firstAttribute="leading" secondItem="U04-RF-Typ" secondAttribute="trailing" constant="8" symbolic="YES" id="Jjc-gX-kRv"/>
+                    <constraint firstItem="Gr7-f4-ohw" firstAttribute="top" secondItem="U04-RF-Typ" secondAttribute="bottom" constant="8" symbolic="YES" id="KPz-A5-JaX"/>
+                    <constraint firstItem="qWf-uW-wjc" firstAttribute="bottom" secondItem="U04-RF-Typ" secondAttribute="bottom" id="Mbk-xB-eaw"/>
+                    <constraint firstItem="U5h-MX-7D4" firstAttribute="leading" secondItem="X02-YP-Lxk" secondAttribute="leading" id="NJa-BY-KoY"/>
+                    <constraint firstItem="DiH-dH-XZI" firstAttribute="top" secondItem="kkJ-dG-or8" secondAttribute="top" id="O74-am-dqe"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="kkJ-dG-or8" secondAttribute="bottom" constant="6" id="PSu-wt-Td6"/>
+                    <constraint firstItem="lZE-yv-ntJ" firstAttribute="top" secondItem="U5h-MX-7D4" secondAttribute="bottom" constant="8" symbolic="YES" id="T1q-1j-Fwz"/>
+                    <constraint firstItem="U04-RF-Typ" firstAttribute="leading" secondItem="4sE-OY-DKJ" secondAttribute="leading" id="TnJ-In-HTR"/>
+                    <constraint firstItem="4sE-OY-DKJ" firstAttribute="top" secondItem="lZE-yv-ntJ" secondAttribute="bottom" constant="8" symbolic="YES" id="ULg-I1-MgY"/>
+                    <constraint firstItem="bzK-Fw-bGI" firstAttribute="leading" secondItem="Gr7-f4-ohw" secondAttribute="trailing" constant="8" symbolic="YES" id="WRr-Dr-ytE"/>
+                    <constraint firstItem="A9E-XX-F5l" firstAttribute="bottom" secondItem="Lsh-zf-gGf" secondAttribute="bottom" id="YWo-sT-kuw"/>
+                    <constraint firstItem="bzK-Fw-bGI" firstAttribute="top" secondItem="Gr7-f4-ohw" secondAttribute="top" id="Yix-2k-71k"/>
+                    <constraint firstItem="bzK-Fw-bGI" firstAttribute="bottom" secondItem="Gr7-f4-ohw" secondAttribute="bottom" id="acA-xc-KwT"/>
+                    <constraint firstItem="lZE-yv-ntJ" firstAttribute="leading" secondItem="U5h-MX-7D4" secondAttribute="leading" id="dRQ-3O-k4g"/>
+                    <constraint firstItem="Gr7-f4-ohw" firstAttribute="leading" secondItem="U04-RF-Typ" secondAttribute="leading" id="ep0-sB-NxO"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="kkJ-dG-or8" secondAttribute="bottom" id="iKh-Dw-Guq"/>
+                    <constraint firstItem="X02-YP-Lxk" firstAttribute="leading" secondItem="Q6W-Vl-Nyo" secondAttribute="leading" id="jrf-JX-g4c"/>
+                    <constraint firstItem="Lsh-zf-gGf" firstAttribute="leading" secondItem="Gr7-f4-ohw" secondAttribute="leading" id="n96-B4-zb4"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="kkJ-dG-or8" secondAttribute="bottom" id="nSe-4X-8Wn"/>
+                    <constraint firstItem="DiH-dH-XZI" firstAttribute="leading" secondItem="kkJ-dG-or8" secondAttribute="trailing" constant="8" symbolic="YES" id="sMs-3J-Ngo"/>
+                    <constraint firstItem="qWf-uW-wjc" firstAttribute="top" secondItem="U04-RF-Typ" secondAttribute="top" id="sTs-lq-FmE"/>
+                    <constraint firstItem="WOi-c3-hSt" firstAttribute="bottom" secondItem="4sE-OY-DKJ" secondAttribute="bottom" id="vO2-ZE-UOC"/>
+                    <constraint firstItem="Q6W-Vl-Nyo" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="wMA-5g-CUS"/>
+                    <constraint firstItem="kkJ-dG-or8" firstAttribute="top" secondItem="Lsh-zf-gGf" secondAttribute="bottom" constant="8" symbolic="YES" id="wsp-Lz-zyb"/>
+                    <constraint firstItem="Q6W-Vl-Nyo" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="wyY-ND-IJ6"/>
+                    <constraint firstItem="X02-YP-Lxk" firstAttribute="top" secondItem="Q6W-Vl-Nyo" secondAttribute="bottom" constant="8" symbolic="YES" id="ygO-oi-o4U"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="Q6W-Vl-Nyo" secondAttribute="trailing" id="zPm-Mx-D6J"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="PSu-wt-Td6"/>
+                        <exclude reference="nSe-4X-8Wn"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="authorLabel" destination="X02-YP-Lxk" id="Tte-f9-2cD"/>
+                <outlet property="bidLabel" destination="U5h-MX-7D4" id="5hV-ay-gaB"/>
+                <outlet property="bookLabel" destination="Q6W-Vl-Nyo" id="h6D-ff-88d"/>
+                <outlet property="bookStatusLabel" destination="A9E-XX-F5l" id="W7c-gD-9I3"/>
+                <outlet property="bookTakenAddressLabel" destination="DiH-dH-XZI" id="Ac9-ir-c5z"/>
+                <outlet property="endDateLabel" destination="qWf-uW-wjc" id="h2Z-eY-vC5"/>
+                <outlet property="libraryLabel" destination="lZE-yv-ntJ" id="JKW-PM-OfT"/>
+                <outlet property="requestStatusLabel" destination="bzK-Fw-bGI" id="x5h-Ow-NWc"/>
+                <outlet property="startDateLabel" destination="WOi-c3-hSt" id="Gik-rc-DCI"/>
+            </connections>
+            <point key="canvasLocation" x="292" y="381.5"/>
+        </tableViewCell>
+    </objects>
+</document>
